@@ -5,7 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [MongooseModule.forRoot('não criei um databse no mongodb'), UserModule],
+  imports: [MongooseModule.forRoot('não criei um database no mongodb'), UserModule],
   controllers: [AppController], 
   providers: [AppService],
 })
